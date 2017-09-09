@@ -1,6 +1,6 @@
 h1, h2 {
     text-align: center;
-    line-height: 0.8;
+    line-height: 0.7;
    
 }
 
@@ -11,8 +11,13 @@ h5 {
     
 }
 
+body {
+    background-color: beige;
+}
+
 nav {
     text-align: center;
+
 }
 
 ul {
@@ -28,11 +33,37 @@ li{
 
 p {
     font-style: italic;
-    line-height: 0.9;
+    line-height: 0.7;
     margin-left: 40px;
+}
+
+#p1 {
+    background-color: beige;
+    
 }
 
 img {
     float: right;
     margin: 0 0 10px 10px;
+}
+
+#logo {
+    float: none;
+    margin: 0 0 10px 10px;
+}
+
+hr {
+    height: 10px;
+    color: firebrick;
+    background-color: firebrick;
+    
+}
+
+th {
+   
+    height: 50px;
+    text-align: center;
+}
+tr {
+    text-align: left;
 }
