@@ -2,18 +2,22 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Resturant</title>
+    <title>Restaurant</title>
     <link rel="stylesheet" href="menu-styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
 </head>
 
 <body>
-    <h1>Resturant Name</h1>
+    <h1>ABC Bar & Grill</h1>
     <nav>
         <a href="#Apps">Apps</a> |
         <a href="#Soups">Soups & Salads</a> |
         <a href="#Entrees">Entrees</a> |
         <a href="#Desserts">Desserts</a> |
-        <a href="#Combos">Combos</a>       
+        <a href="#Combos">Combos</a>      
+        <a href="#Drinks">Drinks</a> |
+        <a href="#Kids">Kid's Section</a> |
+        <a href="#Combos">Combos</a>    
     </nav>
     <div>
         <h2 id = "Apps"><br><br>Appetizers</h2>
@@ -58,34 +62,137 @@
         <li>Dish3</li>
         <li>Dish4</li>
     </ul>
+    <h1 id = "menu">Menu</h1>
+    <hr>
     
-    <h2 id = "Desserts"><br><br>Desserts</h2>
-    <ul>
-        <li>Dish1</li>
-        <li>Dish2</li>
-        <li>Dish3</li>
-        <li>Dish4</li>
-    </ul>
+    <section>
+    <h2 id = "Apps"><br>Appetizers</h2>
+    <h5>Sharable platters to start each meal with. Add an appetizer to any meal for $8.00</h5>
+    <img src="App%20pic.png" width = "250" alt="Mozzarella Sticks">
+    <dl>
+        <dt>Spinach Dip</dt>
+        <dd>A blend of spinach and melted mozzarella cheese. Served with crisp tortilla chips.<br><br></dd>
+        <dt>Mozzarella Sticks</dt>
+        <dd>Coasted with seasoned bread crumbs and fried golden brown. Served with marinara sauce.<br><br></dd>
+        <dt>Chicken Bites</dt>
+        <dd>Crispy chicken hand-breaded and fried. With your choice of classic, honey, or hot Buffalo flavor.<br><br></dd>
+        <dt>Quesadilla</dt>
+        <dd>Served with salsa verde and pico. Choice of chipotle-lime chicken or steak.<br><br></dd>
+    </dl>
+    </section>
     
-    <h2 id="Combos">Combos</h2>
-    <table width="20%" border>
-      <caption>Here's some important tabular data</caption>
+    <section>
+    <h2 id = "Soups"><br><br><br><br>Soups & Salads</h2>
+    <h5>Add a soup to any meal. Cup $3.00, Bowl $4.00. Dinner salad for $8.00, side salad for $2.50</h5>
+    <img src="French-Onion-Soup.jpeg" width = "250" alt="French Onion Soup">
+      
+    <dl>
+        <dt>Broccoli Cheddar Soup</dt>
+        <dd>Chopped broccoli, shredded carrots, and seasoning simmered in a smooth cheese sauce.<br><br></dd>
+        <dt>French Onion Soup</dt>
+        <dd>Sliced onion sauteed and gently simmered in a light beef broth topped with a thick baquette slice and melted provolone cheese.<br><br></dd>
+        <dt>Ceaser Salad</dt>
+        <dd>Crisp romaine lettuce, garlic croutons, creamy caesar dressing topped with shaved parmesan cheese. Add chicken for $2.00 <br><br></dd>
+        <dt>House Salad</dt>
+        <dd>Garden fresh lettuce, sliced tomato wedges, feta cheese, red onion, and black olives, served with our house dressing.<br><br></dd>
+
+    </dl>
+    </section>
+    
+    <section>
+    <h2 id = "Entrees"><br><br><br><br>Entrees</h2>
+    <h5>Each entree is served with your choice of two sides. Sides include: fries, steamed veggies, baked potato, and baked beans.</h5>
+    <img src="steak.jpg" width = "250" alt="Sirloin Steak">
+    
+    <dl>
+        <dt>Cajun Sirloin Steak</dt>
+        <dd>A 6 oz. sirloin, seasoned with Cajun blackening spice and cooked to order. <br><br></dd>
+        <dt>Lobster Tail</dt>
+        <dd>A sweet and tender broiled lobster tail flavored with a lemon and butter sauce. <br><br></dd>
+        <dt>Primavera Pasta</dt>
+        <dd>Mixed vegetables tossed with cavatappi pasta in a lemon basil sauce topped with Parmesan cheese. Add grilled chicken or grilled shrimp for $5.00 <br><br></dd>
+        <dt>Chicken Sandwich</dt>
+        <dd>Choice of grilled or fried chicken with Swiss cheese, applewood smoked bacon, and sliced avocado. Topped with lettuce, fresh tomato, pickle chips, and onion. <br><br></dd>
+    </dl>
+    </section>
+    
+    <section>
+    <h2 id = "Desserts"><br><br><br><br><br>Desserts</h2>
+    <h5>Add a dessert to any meal for just $5.00</h5>
+    <img src="cobbler.jpg" width = "250" alt="Apple cobbler">
+    <dl>
+        <dt>House Sundae</dt>
+        <dd>Two scoops of vanilla or chocolate ice cream. Topped with hot fudge, whipped cream and a cherry.<br><br></dd>
+        <dt>Ice Cream Cake</dt>
+        <dd>Homemade ice cream cake with Oreo cookie crust, caramel, and chocolate fudge.<br><br></dd>
+        <dt>Apple Cobbler</dt>
+        <dd>Warm and crispy apple cobbler topped with a scoop of vanilla ice cream and a caramel drizzle. <br><br></dd>
+    </dl>
+    </section>
+    
+    <section>
+        <h2 id = "Drinks"><br><br><br><br><br>Drinks</h2>
+        <h5>Add any of our refreshing beverages to your meal for $2.75</h5>
+        <dl>
+            <dt>Fountain Drinks</dt>
+            <dd>Enjoy any one of our Pepsi product flavors: Mountain Dew, Dr. Pepper, Pepsi, or Sierra Mist.<br><br></dd>
+            <dt>Water, Coffe, or Tea</dt>
+            <dd>Your choice of sparkling water, freshly brewed coffee, or our homemade ice tea.<br><br></dd>
+        </dl>
+    </section>
+    
+    <section>
+        <h2 id = "Kids">Kid's Section</h2>
+        <h5>All kid's meals include a fountain drink or glass of milk.</h5>
+        <img src="Cheese%20Quesadilla.png" width = "250" alt="Cheese Quesadilla">
+        <dl>
+            <dt>PB&J</dt>
+            <dd>Peanut butter and grape jelly spread on two slices of toasted white bread <br><br></dd>
+            <dt>Chicken Nuggets</dt>
+            <dd>A basket of crispy chicken tenders with a side of french fries.<br><br></dd>
+            <dt>Cheese Quesadilla</dt>
+            <dd>Two flour tortillas grilled and filled with a shredded cheese blend.<br><br></dd>
+            <dt>Pasta</dt>
+            <dd>Spaghetti noodles with your choice of marinara or alfredo sauce.<br><br></dd>
+        </dl>
+    </section>
+    
+    <br><br><br><br><br><br><br><br><br><br>
+    <hr>
+    
+    <section>
+    <h2 id="Combos"><br><br>Combination Platters</h2>
+    <h5>Choose 1 option from each category below for $12.00. All platters come with a side of your choice.</h5>
+    
+    <table class = "centerTable">
        <tr>
-           <th>Header 1</th>
-           <th>Header 2</th>
+           <th>Soup or Salad</th>
+           <th>Entree</th>
+           <th>Dessert</th>
        </tr>
         <tr>
-            <td>Data 01</td>
-            <td>Data 02</td>
+            <td>Broccoli Cheddar Soup</td>
+            <td>Cajun Sirloin Steak</td>
+            <td>House Sundae</td>
         </tr>
         <tr>
-            <td>Data 01</td>
-            <td>Data 02</td>
+            <td>French Onion Soup</td>
+            <td>Lobster Tail</td>
+            <td>Ice Cream Cake</td>
         </tr>
         <tr>
-            <td>Data 01</td>
-            <td>Data 02</td>
+            <td>Ceaser Salad</td>
+            <td>Primavera Pasta</td>
+            <td>Apple Cobbler</td>
+        </tr>
+        <tr>
+            <td>House Salad</td>
+            <td>Chicken Sandwich</td>
         </tr>
     </table>
+    </section>
+    <br><br><br>
+    <hr>
+    <img ID= "imgBorder" src="https://maps.googleapis.com/maps/api/staticmap?center=13612+Bruce+B+Downs,Tampa,FL&zoom=17&size=600x400&maptype=roadmap&markers=color:red%7Clabel:%7C28.0713352,-82.4268" alt="Resturant Location: 13612 Bruce B Downs, Tampa, Florida">
 </body>
 </html>
